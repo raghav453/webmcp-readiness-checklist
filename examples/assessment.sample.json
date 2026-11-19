@@ -1,0 +1,38 @@
+{
+  "action": "search_catalog",
+  "environment": {
+    "browser": "not recorded",
+    "apiRevision": "2026-11-13 draft",
+    "mode": "not tested"
+  },
+  "gates": {
+    "contract": {
+      "status": "pass",
+      "evidence": "docs/webmcp-readiness-guide.md"
+    },
+    "registration": {
+      "status": "not tested",
+      "evidence": ""
+    },
+    "execution": {
+      "status": "not tested",
+      "evidence": ""
+    },
+    "authorization": {
+      "status": "not applicable",
+      "reason": "Only public fictional fixture; no server operation"
+    },
+    "confirmation": {
+      "status": "not applicable",
+      "reason": "Read-only catalogue lookup"
+    },
+    "lifecycle": {
+      "status": "not tested",
+      "evidence": ""
+    },
+    "security": {
+      "status": "not tested",
+      "evidence": ""
+    }
+  }
+}
