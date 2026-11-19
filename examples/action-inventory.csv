@@ -1,0 +1,4 @@
+Action,User Task,UI Route,Data Source,Access,Effects,Owner,Evidence Stage,Next Test
+search_catalog,Find fictional equipment,/catalog,Fictional fixture,Public,Read only,Demo maintainer,Candidate,Discover and execute in named browser
+prepare_support_request,Review a fictional support message,/support,Local draft,Public,Prepare draft only,Demo maintainer,Candidate,Cancel and confirm exact reviewed draft
+update_account_address,Change account delivery address,/account,Authenticated server,Protected,Consequential,Application owner,Not assessed,Authorization and confirmation design review
